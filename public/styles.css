@@ -1,0 +1,16 @@
+body{
+  background-color: #a8bd74;
+}
+
+.container{
+  padding: 8% 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#submit_btn{
+  background-color:#8974bd;
+}
