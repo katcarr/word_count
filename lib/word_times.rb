@@ -3,7 +3,7 @@
 class String
   define_method(:word_times) do |to_find|
 
-    words_to_check = downcase().split(' ')
+    words_to_check = delete(',:;.!?""').downcase().split(' ')
     total_times = 0
 
     words_to_check.each do |word|
